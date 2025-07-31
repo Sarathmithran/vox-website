@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vox Populi</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- Hero Section with Navigation -->
+    <section id="home" class="hero-section d-flex flex-column">
+        <!-- Navigation inside hero section -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-content">
+                    <!-- Logo - Left -->
+                    <a class="navbar-brand" href="#">
+                        VOX
+                    </a>
+                    
+                    <!-- Menu - Center (Desktop only) -->
+                    <div class="navbar-center">
+                        <ul class="navbar-nav">
+                            <li><a class="nav-link active-menu" href="#home">Home</a></li>
+                            <li><a class="nav-link" href="#about">About Us</a></li>
+                            <li><a class="nav-link" href="#products">Products</a></li>
+                            <li><a class="nav-link" href="#services">Services</a></li>
+                            <li><a class="nav-link" href="#projects">Projects</a></li>
+                            <li><a class="nav-link" href="#contact">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Hamburger - Right (Always visible) -->
+                    <button class="navbar-toggler" type="button" id="openSidebar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 28 28" fill="white"><path d="M4 7C4 6.44771 4.44772 6 5 6H24C24.5523 6 25 6.44771 25 7C25 7.55229 24.5523 8 24 8H5C4.44772 8 4 7.55229 4 7Z" fill="#fffff"/><path d="M4 13.9998C4 13.4475 4.44772 12.9997 5 12.9997L16 13C16.5523 13 17 13.4477 17 14C17 14.5523 16.5523 15 16 15L5 14.9998C4.44772 14.9998 4 14.552 4 13.9998Z" fill="#fffff"/><path d="M5 19.9998C4.44772 19.9998 4 20.4475 4 20.9998C4 21.552 4.44772 21.9997 5 21.9997H22C22.5523 21.9997 23 21.552 23 20.9998C23 20.4475 22.5523 19.9998 22 19.9998H5Z" fill="#fffff"/></svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+       <div class="sidebar-menu" id="sidebarMenu">
+        <button class="sidebar-close" id="closeSidebar">
+            <i class="fas fa-times"></i>
+        </button>
+        
+        <!-- Navigation Links -->
+        <nav class="sidebar-nav">
+            <a href="#home" class="nav-link">
+                <i class="fas fa-home me-2"></i> Home
+            </a>
+            <a href="#about" class="nav-link">
+                <i class="fas fa-info-circle me-2"></i> About Us
+            </a>
+            <a href="#products" class="nav-link">
+                <i class="fas fa-box me-2"></i> Products
+            </a>
+            <a href="#services" class="nav-link">
+                <i class="fas fa-cogs me-2"></i> Services
+            </a>
+            <a href="#projects" class="nav-link">
+                <i class="fas fa-project-diagram me-2"></i> Projects
+            </a>
+            <a href="#contact" class="nav-link">
+                <i class="fas fa-envelope me-2"></i> Contact Us
+            </a>
+        </nav>
+
+        <!-- Corporate Information -->
+        <div class="corporate-section">
+            <h3 class="corporate-title">Corporate Office</h3>
+            <div class="mb-3">
+                <strong class="d-block mb-2" style="color: #333; font-size: .9rem;">LOREM IPSUM</strong>
+            </div>
+            
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt text-secondary"></i>
+                </div>
+                <div class="contact-details">
+                    <div class="contact-label">lorem ipsum</div>
+                    <div class="contact-value">
+                        lorem ipsum lorem ipsum<br>
+                        Dubai, UAE
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fas fa-phone text-secondary"></i>
+                </div>
+                <div class="contact-details">
+                    <div class="contact-value">+91 9999999999</div>
+                </div>
+            </div>
+            
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fas fa-envelope text-secondary"></i>
+                </div>
+                <div class="contact-details">
+                    <div class="contact-value">info@vox.com</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Hero Content -->
+        <div class="hero-content">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="hero-badge">
+                            Beat the Heat
+                        </div>
+                        <h2 class="hero-title">
+                            Lorem Ipsum is<br>
+                            Lorem Ipsum Lorem<br>
+                            Lorem
+                        </h2>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="service-info-panel">
+                            <h6><i class="fas fa-arrow-right rounded-circle border border-2 border-success p-2 me-2"></i>More about services</h6>
+                            <p>It simply dummy text of the printing and typesetting industry. It simply dummy text of the printing and typesetting.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Service Cards -->
+                <div class="service-cards-container">
+                    <div class="row g-4">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-card">
+                                <div class="mb-4"> 
+                                    <img src="./assets/Path 7.png" alt="img" width="50">
+                                </div>
+                                <h5>Lorem Ipsum</h5>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                                <button class="btn btn-know-more border-success"><i class="fas fa-arrow-right text-success p-2 me-2"></i>Know more</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-card">
+                                <div class="mb-4"> 
+                                    <img src="./assets/Group 4.png" alt="img" width="50">
+                                </div>
+                                <h5>Lorem Ipsum</h5>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                                <button class="btn btn-know-more2"><i class="fas fa-arrow-right rounded-circle border border-2 p-2 me-2"></i>Know more</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-card">
+                                <div class="mb-4"> 
+                                    <img src="./assets/Group 6.png" alt="img" width="50">
+                                </div>
+                                <h5>Lorem Ipsum</h5>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                                <button class="btn btn-know-more3"><i class="fas fa-arrow-right rounded-circle border border-2 p-2 me-2 border-info text-info"></i>Know more</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-card">
+                                <div class="mb-4"> 
+                                    <img src="./assets/Group 8.png" alt="img" width="50">
+                                </div>
+                                <h5>Lorem Ipsum</h5>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                                <button class="btn btn-know-more4"><i class="fas fa-arrow-right rounded-circle border border-2 p-2 me-2 border-warning text-warning"></i>Know more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section border-bottom border-info border-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="section-subtitle">About us</div>
+                    <h2 class="section-title">
+                        It is a long establish<br>
+                        fact that a reader<br>
+                        It is a long
+                    </h2>
+                    <p class="about-text">
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.
+                    </p>
+                    <button class="btn">
+                        <i class="fas fa-arrow-right text-gray me-2 rounded-circle border border-2 border-success p-2 text-success"></i>
+                        More about company
+                    </button>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-images">
+                        <div class="about-image large"></div>
+                        <div class="about-image small"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="project-section">
+        <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- First Slide -->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="./assets/difc_2.png" class="d-block w-100 rounded" alt="img2">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./assets/Arabian-Ranches-3-New-Cover.png" class="d-block w-100 rounded" alt="img3">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./assets/the-edge-image-53.png" class="d-block w-100 rounded" alt="img1">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second Slide -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="./assets/difc_2.png" class="d-block w-100 rounded" alt="img2">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./assets/Arabian-Ranches-3-New-Cover.png" class="d-block w-100 rounded" alt="img3">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./assets/the-edge-image-53.png" class="d-block w-100 rounded" alt="img1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <button class="carousel-control-prev custom-btn custom-btn-prev ms-1" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                <i class="fas fa-chevron-left text-white fs-6"></i>
+            </button>
+            <button class="carousel-control-next custom-btn custom-btn-next me-1" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                <i class="fas fa-chevron-right text-white fs-6"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light pt-5 pb-3" id="contact">
+        <div class="container">
+            <div class="row text-center text-lg-start">
+                <!-- Brand & Description -->
+                <div class="col-lg-4 col-md-6 mb-4 border-end pe-lg-5">
+                    <div class="mb-3">
+                        <h4 class="text-success fw-bold">VOX</h4>
+                    </div>
+                    <p class="small">
+                        Is simply dummy text of the printing and typesetting. Is simply dummy text of the printing and typesetting.
+                    </p>
+                    <div class="d-flex justify-content-center justify-content-lg-start gap-3 mt-3">
+                        <a href="#" class="text-white"><img src="./assets/Group 54.png" alt="facebook" width="25"></a>
+                        <a href="#" class="text-white"><img src="./assets/Group 56.png" alt="whatsapp" width="25"></a>
+                        <a href="#" class="text-white"><img src="./assets/Group 60.png" alt="instagram" width="25"></a>
+                        <a href="#" class="text-white"><img src="./assets/Group 62.png" alt="linkedin" width="25"></a>
+                        <a href="#" class="text-white"><img src="./assets/Group 58.png" alt="x" width="25"></a>
+                    </div>
+                </div>
+
+                <!-- Corporate Office -->
+                <div class="col-lg-2 col-md-6 mb-4 ps-lg-5">
+                    <h6 class="fw-bold">Corporate Office</h6>
+                    <p class="small">Is simply dummy text of the printing and typesetting</p>
+                </div>
+
+                <!-- Services -->
+                <div class="col-lg-2 col-md-6 mb-4 ps-lg-5">
+                    <h6 class="fw-bold">Services</h6>
+                    <ul class="list-unstyled small">
+                        <li><a href="#" class="text-decoration-none text-light">simply dummy</a></li>
+                        <li><a href="#" class="text-decoration-none text-light">simply dummy</a></li>
+                        <li><a href="#" class="text-decoration-none text-light">simply dummy</a></li>
+                        <li><a href="#" class="text-decoration-none text-light">simply dummy</a></li>
+                    </ul>
+                </div>
+
+                <!-- Navigation -->
+                <div class="col-lg-2 col-md-6 mb-4 ps-lg-5">
+                    <h6 class="fw-bold">Navigations</h6>
+                    <ul class="list-unstyled small">
+                        <li><a href="#about" class="text-decoration-none text-light">About us</a></li>
+                        <li><a href="#products" class="text-decoration-none text-light">Products</a></li>
+                        <li><a href="#projects" class="text-decoration-none text-light">Projects</a></li>
+                        <li><a href="#blog" class="text-decoration-none text-light">Blog</a></li>
+                        <li><a href="#contact" class="text-decoration-none text-light">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom -->
+            <div class="text-center text-secondary small mt-4">
+                &copy; 2025 All Rights Reserved.
+            </div>
+
+            <!-- Scroll to Top -->
+            <a href="#home" id="goTopBtn" class="position-fixed bottom-0 end-0 m-4 go-top text-white rounded-circle align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                <i class="fas fa-chevron-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Custom JS -->
+    <script src="./index.js"></script>
+</body>
+</html>
