@@ -501,6 +501,7 @@ footer a:hover {
 .go-top {
   background-color: #cccccc;
   opacity: 0.8;
+  z-index: 1001 !important;
 }
 
 .go-top:hover {
